@@ -1,117 +1,179 @@
-# 👋 Hi, I’m Mahmoud — Full-Stack AI Software Engineer
+# 👋 Hi, I’m Mahmoud — Full-Stack Software Engineer / AI Engineer
 
-I design and build **production-style AI systems and internal tools**, focusing on **FastAPI backends, LLM/RAG pipelines, multimodal AI services, and cloud-native deployment**.
+I build production-grade platforms, developer tooling, and AI-powered systems across backend services, frontend applications, distributed workflows, and cloud infrastructure.
 
-I bring **10+ years of professional software and systems engineering experience** from large-scale, safety-critical environments (Valeo, Garrett), and over the past year I’ve been focused full-time on **applied AI and cloud-based ML engineering**.
+My work focuses on reliability, maintainability, async processing, operational tooling, and practical AI integration — using technologies like FastAPI, Celery, MongoDB, Redis, React, Next.js, Kubernetes, and GitHub Actions.
 
-My work emphasizes **clean architecture, reliability, explainability, and real-world constraints** — not demo-only AI.
-
----
-
-## What I Build
-
-### 🧠 Full-Stack AI Systems
-- Backend-first platforms using **FastAPI**, PostgreSQL, and async pipelines  
-- API-driven web UIs (React / Next.js) for internal tools and analytics  
-- Clear separation between data, AI reasoning, and application logic  
-
-### 🤖 LLM & RAG Applications
-- Retrieval-Augmented Generation (RAG) pipelines  
-- Explainable ranking and recommendation systems  
-- LLMs used as **augmentation layers**, not single points of failure  
-
-### 🖼 Multimodal AI Services
-- **Vision–Language Model (VLM)** based image reasoning  
-- Document analysis with structured outputs and grounded explanations  
-- Robust handling of uncertainty and failure modes  
-
-### ☁️ Cloud-Native AI Engineering
-- Dockerized services and CI/CD pipelines  
-- Azure ML pipelines and serverless APIs  
-- Production-style deployment and observability patterns  
+I bring 10+ years of engineering experience from large-scale industrial environments (Valeo, Garrett), combined with hands-on experience building modern cloud-native and AI-enabled software systems.
 
 ---
 
-## 📂 Featured Projects
+## Current Work
 
-### 🔹 Job Market Intelligence Platform (Full-Stack AI System)
-Backend-first AI platform that ingests, normalizes, and analyzes job postings to produce **explainable recommendations and market intelligence**.
+### Software Engineer @ Tekunda
 
-- FastAPI backend with async ingestion and analysis pipelines  
-- PostgreSQL persistence with normalized schemas and historical snapshots  
-- LLM-assisted enrichment and RAG-style reasoning  
-- Thin React / Next.js UI consuming backend APIs  
-- Designed for reliability, idempotency, and explainability 
- 
-https://github.com/msaleh1888/job-market-intelligence-platform
+Contributing to a production Salesforce DevOps platform across:
 
----
+- Backend services and async workflows
+- Celery worker systems and distributed task processing
+- Frontend operational tooling and UX improvements
+- CI/CD pipelines and deployment reliability
+- Analytics and activity-stream systems
+- AI-assisted developer tooling
+- Production observability and rollout safety improvements
 
-### 🔹 Multimodal Visual Inspection & Explanation API
-Production-style multimodal AI service for **image and document analysis with grounded explanations**.
-
-- FastAPI service using **Vision–Language Models (VLMs)**  
-- Image + prompt → multimodal reasoning → structured results  
-- Clear separation between perception, reasoning, and interpretation  
-- Confidence signals, explanations, and recommended next steps  
-
-https://github.com/msaleh1888/multimodal-visual-inspection-api
+Core technologies:
+FastAPI, MongoDB, Redis, Celery, Next.js, React, Zustand, Tailwind, Kubernetes (AKS), GitHub Actions, OpenTelemetry, SSE/WebSockets.
 
 ---
 
-### 🔹 Azure Serverless Invoice Extraction API
-Invoice → structured JSON using Azure Functions and Azure Document Intelligence, with CI/CD and monitoring.  
-https://github.com/msaleh1888/azure-serverless-invoice-extraction
+## Engineering Focus
+
+- Production-grade backend systems
+- Distributed workflows and async processing
+- Internal developer platforms and operational tooling
+- Reliability-focused architecture and deployment safety
+- Full-stack product engineering
+- AI-powered workflows and LLM integrations
+- Cloud-native infrastructure and CI/CD systems
 
 ---
 
-### 🔹 Azure Customer Segmentation Pipeline
-End-to-end ML pipeline using Azure ML Batch Endpoints and reproducible YAML deployments.  
-https://github.com/msaleh1888/azure-ml-customer-segmentation
+# 📂 Featured Projects
+
+## 🔹 Job Market Intelligence Platform
+Backend-first AI platform for ingesting, enriching, and analyzing job-market data using async pipelines, LLM workflows, and a React frontend.
+
+### Highlights
+- FastAPI backend with async ingestion pipelines
+- PostgreSQL persistence and historical snapshots
+- RAG-style enrichment and recommendation workflows
+- React / Next.js frontend consuming backend APIs
+- Reliability-focused architecture with idempotent processing patterns
+- Production-style system design and modular service boundaries
+
+### Stack
+FastAPI, PostgreSQL, Celery, Redis, React, Next.js, Docker, LLM APIs
+
+🔗 GitHub:
+<https://github.com/msaleh1888/job-market-intelligence-platform>
 
 ---
 
-### 🔹 RAG Microservice (FastAPI + ChromaDB + Groq)
-Document ingestion, embeddings, vector search, and grounded `/ask` endpoint.  
-https://github.com/msaleh1888/rag-llm-fastapi-microservice
+## 🔹 Multimodal Visual Inspection & Explanation API
+Production-style multimodal AI service for image and document analysis using Vision-Language Models (VLMs).
+
+### Highlights
+- Image + prompt → structured reasoning pipeline
+- Grounded explanations and confidence-aware outputs
+- Clear separation between perception, reasoning, and interpretation
+- Failure-aware response handling
+- API-first backend architecture
+
+### Stack
+FastAPI, PyTorch, VLMs, Python, Docker
+
+🔗 GitHub:
+<https://github.com/msaleh1888/multimodal-visual-inspection-api>
 
 ---
 
-## Tech Stack
+## 🔹 Azure Serverless Invoice Extraction API
+Cloud-native invoice extraction service using Azure Functions and Azure Document Intelligence.
 
-**Languages**  
-Python, SQL  
+### Highlights
+- Invoice → structured JSON workflow
+- Serverless deployment architecture
+- CI/CD integration and monitoring
+- Production-oriented cloud workflow design
 
-**Backend & APIs**  
-FastAPI, REST, async programming  
+### Stack
+Azure Functions, Azure Document Intelligence, Python, GitHub Actions
 
-**LLMs & AI**  
-RAG pipelines, prompt engineering, multimodal AI (VLMs), embeddings  
-
-**Data & Storage**  
-PostgreSQL, SQLAlchemy, Alembic, Pandas  
-
-**Cloud & DevOps**  
-Docker, CI/CD (GitHub Actions), Azure ML, Azure Functions  
-
-**ML & CV**  
-PyTorch, torchvision, scikit-learn, transfer learning  
+🔗 GitHub:
+<https://github.com/msaleh1888/azure-serverless-invoice-extraction>
 
 ---
 
-## What I’m Interested In
+## 🔹 Azure Customer Segmentation Pipeline
+End-to-end ML pipeline using Azure ML Batch Endpoints and reproducible deployment workflows.
 
-- Full-Stack AI Software Engineering roles  
-- Internal AI platforms and AI Factory teams  
-- LLM-powered tools for analytics, automation, and decision support  
-- Applied AI roles focused on **shipping real systems**, not research demos  
+### Highlights
+- Batch ML pipeline architecture
+- Feature engineering and K-Means workflows
+- Reproducible deployment strategy
+- Cloud ML operations patterns
+
+### Stack
+Azure ML, Python, scikit-learn, Pandas
+
+🔗 GitHub:
+<https://github.com/msaleh1888/azure-ml-customer-segmentation>
 
 ---
 
-## Contact
+## 🔹 RAG Microservice
+FastAPI microservice for embeddings, vector search, and grounded `/ask` responses.
 
-- **Email:** mahmoud.saleh1888@gmail.com  
-- **LinkedIn:** https://www.linkedin.com/in/mahmoud-saleh-ba57886a/  
-- **Portfolio:** https://msaleh1888.github.io/portfolio-site/  
+### Highlights
+- Document ingestion pipeline
+- Embedding + vector-search workflow
+- Retrieval-augmented answering
+- Lightweight production-oriented API design
 
-If you’re building **AI-powered software products or internal platforms**, I’d love to connect.
+### Stack
+FastAPI, ChromaDB, SentenceTransformers, Groq
+
+🔗 GitHub:
+<https://github.com/msaleh1888/rag-llm-fastapi-microservice>
+
+---
+
+# 🛠 Tech Stack
+
+## Languages
+Python, JavaScript/TypeScript, SQL
+
+## Backend & APIs
+FastAPI, REST APIs, async programming, Celery, SSE, WebSockets
+
+## Frontend
+React, Next.js, Zustand, Tailwind CSS, Ant Design
+
+## Databases & Storage
+MongoDB, PostgreSQL, Redis
+
+## AI & LLM Systems
+RAG pipelines, LLM integration, prompt engineering, multimodal AI (VLMs), embeddings
+
+## Cloud & DevOps
+Docker, Kubernetes (AKS), GitHub Actions, CI/CD pipelines, Azure, OpenTelemetry
+
+## Distributed Systems
+Async workers, scheduled workflows, idempotency, retry-safe processing, rollout safety, health checks, monitoring
+
+## ML & Data
+PyTorch, torchvision, scikit-learn, Pandas, transfer learning
+
+---
+
+# 🌍 What I’m Interested In
+
+- Full-Stack Software Engineering
+- AI Platform Engineering
+- Internal Developer Platforms
+- Distributed Systems & Operational Tooling
+- Production AI Systems
+- Reliability-focused backend engineering
+- AI-powered developer workflows
+
+---
+
+# 📫 Contact
+
+- Email: mahmoud.saleh1888@gmail.com
+- LinkedIn: <https://www.linkedin.com/in/mahmoud-saleh-ba57886a/>
+- GitHub: <https://github.com/msaleh1888>
+- Portfolio: <https://msaleh1888.github.io/portfolio-site/>
+
+If you're building production software platforms, developer tooling, or AI-powered systems, I’d love to connect.
